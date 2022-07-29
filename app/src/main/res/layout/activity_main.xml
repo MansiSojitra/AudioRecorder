@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="VLC Player"
+        android:layout_width="380sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="380sp"
+        android:layout_height="380sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginRight="17sp"
+        android:background="@drawable/mvd" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="380sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="500sp"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:text="0/0"/>
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="380sp"
+        android:layout_height="30sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="580sp" />
+
+    <Button
+        android:id="@+id/btop"
+        android:layout_width="75sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="17sp"
+        android:layout_marginTop="630sp"
+        android:text="open"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/btpl"
+        android:layout_width="75sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="117sp"
+        android:layout_marginTop="630sp"
+        android:text="play"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/btpa"
+        android:layout_width="85sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="212sp"
+        android:layout_marginTop="630sp"
+        android:text="pause"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/btst"
+        android:layout_width="75sp"
+        android:layout_height="60sp"
+        android:layout_marginLeft="317sp"
+        android:layout_marginTop="630sp"
+        android:text="stop"
+        android:backgroundTint="@color/teal_700"
+        />
+</RelativeLayout>
